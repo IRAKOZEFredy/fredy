@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Art Collection</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-content">
+            <div id="about" class="about-container">
+                <h2>About This Collection</h2>
+                <p>This photo collection showcases some of the best moments captured by our photographers. Each photo tells a unique story and captures a special moment in time.</p>
+                <div class="captions">
+                    <figure>
+                        <img src="assets/images/chimpanzee.jpg" alt="Chimpanzee">
+                        <figcaption>Chimpanzee - A curious mind in the wild</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/images/gorilla.jpg" alt="Gorilla">
+                        <figcaption>Gorilla - The gentle giant</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div id="gallery" class="gallery-container">
+                <div class="highlighted-photos">
+                    <div class="highlighted-photo">
+                        <img src="assets/images/photo1.jpg" alt="Photo 1">
+                        <div class="hover-details">Baboon</div>
+                    </div>
+                    <div class="highlighted-photo">
+                        <img src="assets/images/photo2.jpg" alt="Photo 2">
+                        <div class="hover-details">Chimpanzee</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="assets/images/photo3.jpg" alt="Photo 3">
+                        <div class="hover-details">Mofasa</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/photo4.jpg" alt="Photo 4">
+                        <div class="hover-details">Coba</div>
+                    </div>
+                </div>
+                <div class="full-size-viewer">
+                    <img id="full-size-image" src="" alt="Full Size Image">
+                    <button id="close-button">Close</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
